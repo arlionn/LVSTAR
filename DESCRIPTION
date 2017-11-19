@@ -1,0 +1,21 @@
+Package: LVSTAR
+Type: Package
+Title: Logistic Vector Smooth Transition AutoRegression Modelling
+Version: 1.0.0
+Authors@R: person("Yukai", "Yang", email = "yukai.yang@statistik.uu.se",role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Provides the Logistic Vector Smooth Transition AutoRegression (LVSTAR) modelling.
+    The modelling procedure consists of three stages: Specification, Estimation and Evaluation.
+    The package offers tools helping the package user(s) to conduct model specification tests,
+    to do LVSTAR model estimation, and to do model evaluation.
+    The tests implemented in the package are heteroskedasticity-consistent.
+    The wild bootstrap tests are also implemented.
+    Parallel computation (as an option) is implemented in some functions, especially the bootstrap tests.
+    The package suits tasks running many cores on super-computation servers.
+Depends: R (>= 3.0.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: tibble,
+    magrittr
+RoxygenNote: 6.0.1
