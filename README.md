@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-LVSTAR version 1.1.0 (RED STAR)
+LVSTAR version 1.0.0 (RED STAR)
 ===============================
 
 The PSTR package implements the Logistic Vector Smooth Transition AutoRegression (LVSTAR) modelling.
